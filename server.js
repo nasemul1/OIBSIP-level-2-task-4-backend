@@ -10,7 +10,7 @@ const PORT = 8000;
 app.use(express.json());
 
 app.use(cors({
-    origin: 'https://nasemul1.github.io/'
+    origin: 'https://nasemul1.github.io/registration'
 }));
 
 app.get('/api/users', (req, res) => {

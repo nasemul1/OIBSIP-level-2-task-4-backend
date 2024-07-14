@@ -10,7 +10,7 @@ const PORT = 8000;
 app.use(express.json());
 
 app.use(cors({
-    origin: 'https://nasemul1.github.io/OIBSIP-level-2-task-4/'
+    origin: 'https://nasemul1.github.io/'
 }));
 
 app.get('/api/users', (req, res) => {

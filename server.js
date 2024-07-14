@@ -10,7 +10,7 @@ const PORT = 8000;
 app.use(express.json());
 
 app.use(cors({
-    origin: 'https://nasemul1.github.io/registration'
+    origin: 'https://oibsip-level-2-task-4-topaz.vercel.app/'
 }));
 
 app.get('/api/users', (req, res) => {

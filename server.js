@@ -9,9 +9,7 @@ const PORT = 8000;
 // Middleware to parse JSON bodies
 app.use(express.json());
 
-app.use(cors({
-    origin: 'https://oibsip-level-2-task-4-topaz.vercel.app/'
-}));
+app.use(cors());
 
 app.get('/api/users', (req, res) => {
     return res.json(users);
